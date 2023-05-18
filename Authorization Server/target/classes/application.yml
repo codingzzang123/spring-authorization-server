@@ -1,0 +1,23 @@
+
+# resources/application.yml
+
+spring:
+  security:
+    user:
+      name: user
+      password: test
+    oauth2:
+      client:
+        client-id: mysun
+        client-secret: 123
+
+#  h2:
+#    console:
+#      enabled: true
+#      path: h2-console
+
+
+logging:
+  level:
+    org.springframework.security: debug
+    org.springframework.boot: debug
